@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1A3A5C;
+  --color-secondary: #2E6DA4;
+  --color-accent: #C8A951;
+  --color-bg: #F5F7FA;
+  --color-text: #2C3E50;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Remove default margins from headings/paragraphs in content areas */
+h1, h2, h3, h4 {
+  margin: 0;
+}
